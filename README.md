@@ -20,11 +20,17 @@ Keep in mind as well that someone using the app might make a purchase through th
 
 
 in this challenge i am trying to answer the questions about the Starbucks mobile app customers:
+
  -- What is the most age demographic group the Starbucks mobile app users are living into?
+ 
  -- For males,what is the most age demographic group?
+ 
  -- For females, what is the most age demographic group?
+ 
  -- What is the average customer spend in Starbucks transaction?
+ 
  -- Who are the top 10 customers for Starbucks mobile app? 
+ 
  -- What is the most common (most completed) Starbucks offer ?
  
 i am also going to create a model to mimic the Starbucks mobile app user behavior to try to predict wither they will respond to an offer or not.
@@ -64,36 +70,57 @@ transcript.json
     person (str) - customer id
     time (int) - time in hours since start of test. The data begins at time t=0
     value - (dict of strings) - either an offer id or transaction amount depending on the record
-	
 
+	
+**License**
+ GPLv3	
 	
 **Installation**
 
 please make sure you are using python 3 with below libraries installed:
+
 import pandas as pd
+
 import numpy as np
+
 import math
+
 import json
+
 % matplotlib inline
+
 from sklearn.model_selection import train_test_split,GridSearchCV
+
 from sklearn.tree import DecisionTreeClassifier
+
 from sklearn.ensemble import RandomForestClassifier
+
 from sklearn.ensemble import AdaBoostClassifier
+
 from sklearn.metrics import accuracy_score,f1_score
+
 from sklearn.linear_model import LogisticRegression
+
 from sklearn.metrics import precision_score
+
 from sklearn.metrics import recall_score
+
 from sklearn.naive_bayes import GaussianNB
+
 from sklearn.metrics import classification_report
+
 from sklearn.pipeline import make_pipeline
+
 from sklearn.model_selection import GridSearchCV
+
 from sklearn import preprocessing
+
 from sklearn.ensemble import RandomForestRegressor
+
 from sklearn.pipeline import make_pipeline
+
 from sklearn.metrics import mean_squared_error, r2_score
+
 import seaborn as sb
+
 import matplotlib.pyplot as plt
-
-
-**License**
- GPLv3	
