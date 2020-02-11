@@ -1,6 +1,6 @@
-**Starbucks Capstone
+**Starbucks Capstone**
 
-**Introduction
+**Introduction**
 
 This data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
 
@@ -16,21 +16,22 @@ Keep in mind as well that someone using the app might make a purchase through th
 
 
 
-**Problem statement
+**Problem statement**
 
 
 in this challenge i am trying to answer the questions about the Starbucks mobile app customers:
- -  What is the most age demographic group the Starbucks mobile app users are living into?
- -  For males,what is the most age demographic group?
- -  For females, what is the most age demographic group?
- -  What is the average customer spend in Starbucks transaction?
- -  Who are the top 10 customers for Starbucks mobile app? 
- -  What is the most common (most completed) Starbucks offer ?
+ -- What is the most age demographic group the Starbucks mobile app users are living into?
+ -- For males,what is the most age demographic group?
+ -- For females, what is the most age demographic group?
+ -- What is the average customer spend in Starbucks transaction?
+ -- Who are the top 10 customers for Starbucks mobile app? 
+ -- What is the most common (most completed) Starbucks offer ?
+ 
 i am also going to create a model to mimic the Starbucks mobile app user behavior to try to predict wither they will respond to an offer or not.
 
 
 
-**Data Sets
+**Data Sets**
 
 The data is contained in three files:
 
@@ -64,10 +65,9 @@ transcript.json
     time (int) - time in hours since start of test. The data begins at time t=0
     value - (dict of strings) - either an offer id or transaction amount depending on the record
 	
+
 	
-**Installation
-
-
+**Installation**
 
 please make sure you are using python 3 with below libraries installed:
 import pandas as pd
@@ -94,5 +94,6 @@ from sklearn.metrics import mean_squared_error, r2_score
 import seaborn as sb
 import matplotlib.pyplot as plt
 
-License
+
+**License**
  GPLv3	
