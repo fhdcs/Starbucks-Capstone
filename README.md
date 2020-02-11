@@ -14,7 +14,11 @@ You'll be given transactional data showing user purchases made on the app includ
 
 Keep in mind as well that someone using the app might make a purchase through the app without having received an offer or seen an offer.
 
+
+
 Problem statement
+
+
 in this challenge i am trying to answer the questions about the Starbucks mobile app customers:
  -  What is the most age demographic group the Starbucks mobile app users are living into?
  -  For males,what is the most age demographic group?
@@ -23,6 +27,8 @@ in this challenge i am trying to answer the questions about the Starbucks mobile
  -  Who are the top 10 customers for Starbucks mobile app? 
  -  What is the most common (most completed) Starbucks offer ?
 i am also going to create a model to mimic the Starbucks mobile app user behavior to try to predict wither they will respond to an offer or not.
+
+
 
 Data Sets
 
@@ -60,6 +66,9 @@ transcript.json
 	
 	
 Installation
+
+
+
 please make sure you are using python 3 with below libraries installed:
 import pandas as pd
 import numpy as np
