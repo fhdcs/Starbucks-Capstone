@@ -1,6 +1,6 @@
-Starbucks Capstone
+**Starbucks Capstone
 
-Introduction
+**Introduction
 
 This data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
 
@@ -16,7 +16,7 @@ Keep in mind as well that someone using the app might make a purchase through th
 
 
 
-Problem statement
+**Problem statement
 
 
 in this challenge i am trying to answer the questions about the Starbucks mobile app customers:
@@ -30,7 +30,7 @@ i am also going to create a model to mimic the Starbucks mobile app user behavio
 
 
 
-Data Sets
+**Data Sets
 
 The data is contained in three files:
 
@@ -65,7 +65,7 @@ transcript.json
     value - (dict of strings) - either an offer id or transaction amount depending on the record
 	
 	
-Installation
+**Installation
 
 
 
