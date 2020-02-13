@@ -79,8 +79,6 @@ transcript.json
 
 please make sure you are using python 3 with below libraries installed:
 
-import pandas as pd
-
 import numpy as np
 
 import math
@@ -99,7 +97,9 @@ from sklearn.ensemble import AdaBoostClassifier
 
 from sklearn.metrics import accuracy_score,f1_score
 
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import SGDClassifier
+
+from sklearn.neighbors import KNeighborsClassifier
 
 from sklearn.metrics import precision_score
 
@@ -113,7 +113,7 @@ from sklearn.pipeline import make_pipeline
 
 from sklearn.model_selection import GridSearchCV
 
-from sklearn import preprocessing
+from sklearn import preprocessing,cross_validation
 
 from sklearn.ensemble import RandomForestRegressor
 
